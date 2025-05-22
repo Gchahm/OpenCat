@@ -43,10 +43,11 @@ int resolution = 360;
 float rangeRatio = range / 270;
 char num = '0';
 int t = 0, tStep = 2;
-byte pwm_pin[16] = { 12, 11, 4, 3,
-                     13, 10, 5, 2,
-                     14, 9, 6, 1,
-                     15, 8, 7, 0 };
+byte pwm_pin[] = { 8, 7, 10, 2,
+                   5, 6, 9, 13,
+                   11, 5, 3, 12,
+                   14, 1, 0, 15
+};
 int middleShifts[16] = { 0, 50, 0, 0,
                          -45, -45, -45, -45,
                          45, 45, -45, -45,
@@ -157,14 +158,10 @@ void loop() {
   } else if (num == 'd') {  //shut down all servos
     shutServos();
   } else {  //move a single joint
+    Serial.println(num);
     int servonum = num - '0';
-    //Serial.println(servonum);
-    float duty = (sin(2 * 3.14159 * t / resolution)) * range / 2 * rotationDirections[servonum] * amplitudeRatio[servonum];
-    Serial.print(duty);
-    Serial.print("\t");
-    Serial.print(SERVOMIN + range / 2 + duty);
-    pwm.setPWM(pwm_pin[servonum], 0, SERVOMIN + range / 2 + duty);
-    Serial.println();
+    
+    
   }
 
   delay(1);
