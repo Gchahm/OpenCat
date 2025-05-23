@@ -115,11 +115,10 @@ byte pwm_pin[] = { 4, 3, 12, 11,
 #define BAUD_RATE 57600
 
 #elif defined NyBoard_V1_0
-byte pwm_pin[] = { 8, 7, 10, 2,
-                   5, 6, 9, 13,
-                   11, 5, 3, 12,
-                   14, 1, 0, 15
-                 };
+byte pwm_pin[] = { 12, 11, 4, 3,
+                   13, 10, 5, 2,
+                   14, 9, 6, 1,
+                   15, 8, 7, 0 };
 #define VOLTAGE_DETECTION_PIN A7
 #define LOW_VOLTAGE 650
 #define DEVICE_ADDRESS 0x54
@@ -394,7 +393,8 @@ float protectiveShift;  //reduce the wearing of the potentiometer
 #include "motion.h"
 
 #ifndef MAIN_SKETCH
-//#define GYRO_PIN 0
+#define GYRO_PIN 0
+
 #else
 
 #define TASK_QUEUE  //allow executing a sequence of tasks, if you enabled the other modules, the task queue will be automatically enabled. \
@@ -531,11 +531,9 @@ void initRobot() {
   lastCmd[0] = '\0';
 //----------------------------------
 #else  // ** save parameters to device's static memory
-  PTLF("\n reached super else 2");
   configureEEPROM();
   servoSetup();  //servo needs to be after configureEEPROM and before imuSetup
 #ifdef GYRO_PIN
-    PTLF("\n GYRO_PIN");
   imuSetup();
 #endif
 #endif  // **
