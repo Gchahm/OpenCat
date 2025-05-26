@@ -95,30 +95,30 @@ int8_t rotationDirection[] = { 1, -1, -1, 1,
 
 
 #ifdef NyBoard_V0_1
-byte pwm_pin[] = { 7, 0, 15, 8,
-                   6, 1, 14, 9,
-                   5, 2, 13, 10,
-                   4, 3, 12, 11 };
+byte pwm_pin[] = { 6, 7, 9, 2,
+                   5, 8, 10, 13,
+                   3, 12, 11, 4,
+                   0, 15, 14, 1 };
 #define VOLTAGE_DETECTION_PIN A0  //voltage detector
 #define LOW_VOLTAGE 440
 #define DEVICE_ADDRESS 0x50  //I2C Address of eeprom chip
 #define BAUD_RATE 57600
 
 #elif defined NyBoard_V0_2
-byte pwm_pin[] = { 4, 3, 12, 11,
-                   5, 2, 13, 10,
-                   6, 1, 14, 9,
-                   7, 0, 15, 8 };
+byte pwm_pin[] = { 6, 7, 9, 2,
+                   5, 8, 10, 13,
+                   3, 12, 11, 4,
+                   0, 15, 14, 1 };
 #define VOLTAGE_DETECTION_PIN A0
 #define LOW_VOLTAGE 440
 #define DEVICE_ADDRESS 0x50
 #define BAUD_RATE 57600
 
 #elif defined NyBoard_V1_0
-byte pwm_pin[] = { 12, 11, 4, 3,
-                   13, 10, 5, 2,
-                   14, 9, 6, 1,
-                   15, 8, 7, 0 };
+byte pwm_pin[] = { 6, 7, 9, 2,
+                   5, 8, 10, 13,
+                   3, 12, 11, 4,
+                   0, 15, 14, 1 };
 #define VOLTAGE_DETECTION_PIN A7
 #define LOW_VOLTAGE 650
 #define DEVICE_ADDRESS 0x54
@@ -127,23 +127,23 @@ byte pwm_pin[] = { 12, 11, 4, 3,
 // #define NUMPIXELS 7
 
 #elif defined NyBoard_V1_1
-byte pwm_pin[] = { 12, 11, 4, 3,
-                   13, 10, 5, 2,
-                   14, 9, 6, 1,
-                   15, 8, 7, 0 };
-#define VOLTAGE_DETECTION_PIN A7
-#define LOW_VOLTAGE 650
+byte pwm_pin[] = { 6, 7, 9, 2,
+                   5, 8, 10, 13,
+                   3, 12, 11, 4,
+                   0, 15, 14, 1 };
+//#define VOLTAGE_DETECTION_PIN A7
+#define LOW_VOLTAGE 440
 #define DEVICE_ADDRESS 0x54
 #define BAUD_RATE 115200
 #define LED_PIN 10
 
 #elif defined NyBoard_V1_2
-byte pwm_pin[] = { 12, 11, 4, 3,
-                   13, 10, 5, 2,
-                   14, 9, 6, 1,
-                   15, 8, 7, 0 };
+byte pwm_pin[] = { 6, 7, 9, 2,
+                   5, 8, 10, 13,
+                   3, 12, 11, 4,
+                   0, 15, 14, 1 };
 #define VOLTAGE_DETECTION_PIN A7
-#define LOW_VOLTAGE 650
+#define LOW_VOLTAGE 440
 #define DEVICE_ADDRESS 0x54
 #define BAUD_RATE 115200
 #define LED_PIN 3

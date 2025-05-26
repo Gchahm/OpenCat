@@ -32,24 +32,25 @@ Arduino via I2C (pins A4 and A5).
 | back right lower	     | 14	     | 07         |
 | back left lower	      | 15      | 	00        |
 
-| PART                  | digital | mechanical |
-|-----------------------|---------|------------|
-| Neck                  | 00      | 08         |
-| Head                  | 01      | 07         |
-| tail                  | 02      | 10         |
-| non                   | 04      | 02         |
-| non                   | 05      | 05         |
-| non                   | 06      | 06         |
-| non                   | 07      | 09         |
-| non                   | 03      | 13         |
-| Frontal left upper    | 08      | 11         |
-| Frontal right upper 	 | 09      | 	05        |
-| Back right upper  	   | 10      | 	03        |
-| Back left upper	      | 11      | 	12        |
-| Front left lower	     | 12	     | 14         |
-| Front right lower	    | 13      | 	01        |
-| back right lower	     | 14	     | 00         |
-| back left lower	      | 15      | 	15        |
+| PART   | digital | mechanical |
+|--------|---------|------------|
+| Neck   | 00      | 06         |
+| Head   | 01      | 07         |
+| tail   | 02      | 09         |
+| non    | 04      | 02         |
+| non    | 05      | 05         |
+| non    | 06      | 08         |
+| non    | 07      | 10         |
+| non    | 03      | 13         |
+| FLU    | 08      | 03         |
+| FRU 	  | 09      | 	  12      |
+| BRU  	 | 10      | 	   11     |
+| BLU	   | 11      | 	   04     |
+| FLL	   | 12	     | 00         |
+| FRL	   | 13      | 15	        |
+| BRL	   | 14	     | 14         |
+| BLL	   | 15      | 	 01       |
 
-0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15
--10,	0,	0,	0,	0,	0,	0,	0,	5,	0,	5,	-9,	-3,	0,	4,	0,
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+-10, 0, 0, 0, 0, 0, 0, 0, 5, 0, 5, -9, -3, 0, 4, 0,
+

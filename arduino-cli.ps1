@@ -1,3 +1,3 @@
-arduino-cli compile --fqbn arduino:avr:uno .\OpenCat.ino -p COM15
-arduino-cli upload --fqbn arduino:avr:uno .\OpenCat.ino -p COM15 --log
-arduino-cli monitor -p COM15 -c 115200
+arduino-cli compile --fqbn arduino:avr:nano .\OpenCat.ino -p COM16
+arduino-cli upload --fqbn arduino:avr:nano .\OpenCat.ino -p COM16 --log
+#arduino-cli monitor -p COM16 -c 115200
