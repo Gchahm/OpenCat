@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eagle version="9.5.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+</layers>
+<library>
+<packages>
+<package name="DDC0006A_N">
+<smd name="1" x="-1.375" y=".95" dx=".6" dy="1" layer="1" roundness="0" rot="R90" stop="yes" cream="yes"/>
+<smd name="2" x="-1.375" y="0" dx=".6" dy="1" layer="1" roundness="0" rot="R90" stop="yes" cream="yes"/>
+<smd name="3" x="-1.375" y="-.95" dx=".6" dy="1" layer="1" roundness="0" rot="R90" stop="yes" cream="yes"/>
+<smd name="4" x="1.375" y="-.95" dx=".6" dy="1" layer="1" roundness="0" rot="R90" stop="yes" cream="yes"/>
+<smd name="5" x="1.375" y="0" dx=".6" dy="1" layer="1" roundness="0" rot="R90" stop="yes" cream="yes"/>
+<smd name="6" x="1.375" y=".95" dx=".6" dy="1" layer="1" roundness="0" rot="R90" stop="yes" cream="yes"/>
+<wire x1="-.7" y1="-1.524" x2=".7" y2="-1.524" width=".2" layer="21"/> 
+<wire x1="-1.75" y1="1.525" x2=".55" y2="1.525" width=".2" layer="21"/> 
+<text x="-1.905" y="3.2766" size="1.27" layer="21" ratio="6" rot="R0">Designator285</text>
+<wire x1="-.75" y1="-1.47" x2=".7435" y2="-1.47" width=".1524" layer="51"/> 
+<wire x1="-.8283" y1="1.5" x2=".8283" y2="1.5" width=".1524" layer="51"/> 
+<wire x1="-.8283" y1="-1.5" x2="-.8283" y2="1.5" width=".1524" layer="51"/> 
+<wire x1=".7435" y1="-1.47" x2=".7473" y2="-1.47" width=".1524" layer="51"/> 
+<wire x1=".7435" y1="1.5" x2=".7473" y2="1.5" width=".1524" layer="51"/> 
+<wire x1="-.7538" y1="-1.47" x2="-.75" y2="-1.47" width=".1524" layer="51"/> 
+<wire x1="-.7538" y1="1.5" x2="-.75" y2="1.5" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1="1.165" x2="-.825" y2="1.165" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1=".735" x2="-1.4371" y2="1.165" width=".1524" layer="51"/> 
+<wire x1=".8283" y1="-1.5" x2=".8283" y2="1.5" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1=".735" x2="-.825" y2=".735" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1="-.215" x2="-.825" y2="-.215" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1="-.215" x2="-1.4371" y2=".215" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1=".215" x2="-.825" y2=".215" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1="-1.165" x2="-.825" y2="-1.165" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1="-1.165" x2="-1.4371" y2="-.735" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1="-.735" x2="-.825" y2="-.735" width=".1524" layer="51"/> 
+<wire x1=".825" y1="-.735" x2="1.4371" y2="-.735" width=".1524" layer="51"/> 
+<wire x1="1.4371" y1="-1.165" x2="1.4371" y2="-.735" width=".1524" layer="51"/> 
+<wire x1=".825" y1="-1.165" x2="1.4371" y2="-1.165" width=".1524" layer="51"/> 
+<wire x1=".825" y1=".215" x2="1.4371" y2=".215" width=".1524" layer="51"/> 
+<wire x1="1.4371" y1="-.215" x2="1.4371" y2=".215" width=".1524" layer="51"/> 
+<wire x1=".825" y1="-.215" x2="1.4371" y2="-.215" width=".1524" layer="51"/> 
+<wire x1=".825" y1=".735" x2="1.4371" y2=".735" width=".1524" layer="51"/> 
+<wire x1="1.4371" y1=".735" x2="1.4371" y2="1.165" width=".1524" layer="51"/> 
+<wire x1=".825" y1="1.165" x2="1.4371" y2="1.165" width=".1524" layer="51"/> 
+<wire x1="-.5783" y1="1.0177" x2="-.2808" y2="1.0177" width=".1524" layer="51" curve="-180"/>
+<wire x1="-.2808" y1="1.0177" x2="-.5783" y2="1.0177" width=".1524" layer="51" curve="-180"/>
+<text x="-1.7288" y="-.635" size="1.27" layer="27" ratio="6" rot="R0">&gt;Value</text>
+<text x="-3.2712" y="-.635" size="1.27" layer="27" ratio="6" rot="R0">&gt;Name</text>
+</package>
+<package name="DDC0006A_M">
+<smd name="1" x="-1.475" y=".95" dx=".65" dy="1.2" layer="1" roundness="0" rot="R90" stop="yes" cream="yes"/>
+<smd name="2" x="-1.475" y="0" dx=".65" dy="1.2" layer="1" roundness="0" rot="R90" stop="yes" cream="yes"/>
+<smd name="3" x="-1.475" y="-.95" dx=".65" dy="1.2" layer="1" roundness="0" rot="R90" stop="yes" cream="yes"/>
+<smd name="4" x="1.475" y="-.95" dx=".65" dy="1.2" layer="1" roundness="0" rot="R90" stop="yes" cream="yes"/>
+<smd name="5" x="1.475" y="0" dx=".65" dy="1.2" layer="1" roundness="0" rot="R90" stop="yes" cream="yes"/>
+<smd name="6" x="1.475" y=".95" dx=".65" dy="1.2" layer="1" roundness="0" rot="R90" stop="yes" cream="yes"/>
+<wire x1="-1.925" y1="1.525" x2=".5" y2="1.525" width=".2" layer="21"/> 
+<wire x1="-.7" y1="-1.524" x2=".7" y2="-1.524" width=".2" layer="21"/> 
+<text x="-2.3503" y="3.2648" size="1.27" layer="21" ratio="6" rot="R0">Designator284</text>
+<wire x1=".825" y1="1.165" x2="1.4371" y2="1.165" width=".1524" layer="51"/> 
+<wire x1="1.4371" y1=".735" x2="1.4371" y2="1.165" width=".1524" layer="51"/> 
+<wire x1=".825" y1=".735" x2="1.4371" y2=".735" width=".1524" layer="51"/> 
+<wire x1=".825" y1="-.215" x2="1.4371" y2="-.215" width=".1524" layer="51"/> 
+<wire x1="1.4371" y1="-.215" x2="1.4371" y2=".215" width=".1524" layer="51"/> 
+<wire x1=".825" y1=".215" x2="1.4371" y2=".215" width=".1524" layer="51"/> 
+<wire x1=".825" y1="-1.165" x2="1.4371" y2="-1.165" width=".1524" layer="51"/> 
+<wire x1="1.4371" y1="-1.165" x2="1.4371" y2="-.735" width=".1524" layer="51"/> 
+<wire x1=".825" y1="-.735" x2="1.4371" y2="-.735" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1="-.735" x2="-.825" y2="-.735" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1="-1.165" x2="-1.4371" y2="-.735" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1="-1.165" x2="-.825" y2="-1.165" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1=".215" x2="-.825" y2=".215" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1="-.215" x2="-1.4371" y2=".215" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1="-.215" x2="-.825" y2="-.215" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1=".735" x2="-.825" y2=".735" width=".1524" layer="51"/> 
+<wire x1=".8283" y1="-1.5" x2=".8283" y2="1.5" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1=".735" x2="-1.4371" y2="1.165" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1="1.165" x2="-.825" y2="1.165" width=".1524" layer="51"/> 
+<wire x1="-.7538" y1="1.5" x2="-.75" y2="1.5" width=".1524" layer="51"/> 
+<wire x1="-.7538" y1="-1.47" x2="-.75" y2="-1.47" width=".1524" layer="51"/> 
+<wire x1=".7435" y1="1.5" x2=".7473" y2="1.5" width=".1524" layer="51"/> 
+<wire x1=".7435" y1="-1.47" x2=".7473" y2="-1.47" width=".1524" layer="51"/> 
+<wire x1="-.8283" y1="-1.5" x2="-.8283" y2="1.5" width=".1524" layer="51"/> 
+<wire x1="-.8283" y1="1.5" x2=".8283" y2="1.5" width=".1524" layer="51"/> 
+<wire x1="-.75" y1="-1.47" x2=".7435" y2="-1.47" width=".1524" layer="51"/> 
+<wire x1="-.2808" y1="1.0177" x2="-.5783" y2="1.0177" width=".1524" layer="51" curve="-180"/>
+<wire x1="-.5783" y1="1.0177" x2="-.2808" y2="1.0177" width=".1524" layer="51" curve="-180"/>
+<text x="-1.7288" y="-.635" size="1.27" layer="27" ratio="6" rot="R0">&gt;Value</text>
+<text x="-3.2712" y="-.635" size="1.27" layer="27" ratio="6" rot="R0">&gt;Name</text>
+</package>
+<package name="DDC0006A_L">
+<smd name="1" x="-1.275" y=".95" dx=".55" dy=".8" layer="1" roundness="0" rot="R90" stop="yes" cream="yes"/>
+<smd name="2" x="-1.275" y="0" dx=".55" dy=".8" layer="1" roundness="0" rot="R90" stop="yes" cream="yes"/>
+<smd name="3" x="-1.275" y="-.95" dx=".55" dy=".8" layer="1" roundness="0" rot="R90" stop="yes" cream="yes"/>
+<smd name="4" x="1.275" y="-.95" dx=".55" dy=".8" layer="1" roundness="0" rot="R90" stop="yes" cream="yes"/>
+<smd name="5" x="1.275" y="0" dx=".55" dy=".8" layer="1" roundness="0" rot="R90" stop="yes" cream="yes"/>
+<smd name="6" x="1.275" y=".95" dx=".55" dy=".8" layer="1" roundness="0" rot="R90" stop="yes" cream="yes"/>
+<wire x1="-.7" y1="-1.524" x2=".7" y2="-1.524" width=".2" layer="21"/> 
+<wire x1="-1.6026" y1="1.525" x2=".45" y2="1.525" width=".2" layer="21"/> 
+<text x="-1.5494" y="3.2766" size="1.27" layer="21" ratio="6" rot="R0">Designator283</text>
+<wire x1=".825" y1="1.165" x2="1.4371" y2="1.165" width=".1524" layer="51"/> 
+<wire x1="1.4371" y1=".735" x2="1.4371" y2="1.165" width=".1524" layer="51"/> 
+<wire x1=".825" y1=".735" x2="1.4371" y2=".735" width=".1524" layer="51"/> 
+<wire x1=".825" y1="-.215" x2="1.4371" y2="-.215" width=".1524" layer="51"/> 
+<wire x1="1.4371" y1="-.215" x2="1.4371" y2=".215" width=".1524" layer="51"/> 
+<wire x1=".825" y1=".215" x2="1.4371" y2=".215" width=".1524" layer="51"/> 
+<wire x1=".825" y1="-1.165" x2="1.4371" y2="-1.165" width=".1524" layer="51"/> 
+<wire x1="1.4371" y1="-1.165" x2="1.4371" y2="-.735" width=".1524" layer="51"/> 
+<wire x1=".825" y1="-.735" x2="1.4371" y2="-.735" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1="-.735" x2="-.825" y2="-.735" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1="-1.165" x2="-1.4371" y2="-.735" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1="-1.165" x2="-.825" y2="-1.165" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1=".215" x2="-.825" y2=".215" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1="-.215" x2="-1.4371" y2=".215" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1="-.215" x2="-.825" y2="-.215" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1=".735" x2="-.825" y2=".735" width=".1524" layer="51"/> 
+<wire x1=".8283" y1="-1.5" x2=".8283" y2="1.5" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1=".735" x2="-1.4371" y2="1.165" width=".1524" layer="51"/> 
+<wire x1="-1.4371" y1="1.165" x2="-.825" y2="1.165" width=".1524" layer="51"/> 
+<wire x1="-.7538" y1="1.5" x2="-.75" y2="1.5" width=".1524" layer="51"/> 
+<wire x1="-.7538" y1="-1.47" x2="-.75" y2="-1.47" width=".1524" layer="51"/> 
+<wire x1=".7435" y1="1.5" x2=".7473" y2="1.5" width=".1524" layer="51"/> 
+<wire x1=".7435" y1="-1.47" x2=".7473" y2="-1.47" width=".1524" layer="51"/> 
+<wire x1="-.8283" y1="-1.5" x2="-.8283" y2="1.5" width=".1524" layer="51"/> 
+<wire x1="-.8283" y1="1.5" x2=".8283" y2="1.5" width=".1524" layer="51"/> 
+<wire x1="-.75" y1="-1.47" x2=".7435" y2="-1.47" width=".1524" layer="51"/> 
+<wire x1="-.2808" y1="1.0177" x2="-.5783" y2="1.0177" width=".1524" layer="51" curve="-180"/>
+<wire x1="-.5783" y1="1.0177" x2="-.2808" y2="1.0177" width=".1524" layer="51" curve="-180"/>
+<text x="-1.7288" y="-.635" size="1.27" layer="27" ratio="6" rot="R0">&gt;Value</text>
+<text x="-3.2712" y="-.635" size="1.27" layer="27" ratio="6" rot="R0">&gt;Name</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TPS565201DDC">
+<pin name="GND" x="17.78" y="-12.7" visible="both" length="middle" direction="pwr" function="none" swaplevel="0" rot="R180"/>
+<pin name="SW" x="17.78" y="10.16" visible="both" length="middle" direction="pwr" function="none" swaplevel="0" rot="R180"/>
+<pin name="VIN" x="-17.78" y="10.16" visible="both" length="middle" direction="pwr" function="none" swaplevel="0" rot="R0"/>
+<pin name="VFB" x="17.78" y="-7.62" visible="both" length="middle" direction="in" function="none" swaplevel="0" rot="R180"/>
+<pin name="EN" x="-17.78" y="2.54" visible="both" length="middle" direction="in" function="none" swaplevel="0" rot="R0"/>
+<pin name="VBST" x="17.78" y="2.54" visible="both" length="middle" direction="pwr" function="none" swaplevel="0" rot="R180"/>
+<wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width=".2032" layer="94"/> 
+<wire x1="12.7" y1="-15.24" x2="12.7" y2="15.24" width=".2032" layer="94"/> 
+<wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width=".2032" layer="94"/> 
+<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-15.24" width=".2032" layer="94"/> 
+<text x="-4.7254" y="1.4986" size="2.083" layer="95" ratio="6" rot="R0">&gt;Name</text>
+<text x="-5.3648" y="-1.0414" size="2.083" layer="96" ratio="6" rot="R0">&gt;Value</text>
+<text x="-5.3648" y="-1.0414" size="2.083" layer="96" ratio="6" rot="R0">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPS565201DDCT" prefix="U">
+<gates>
+<gate name="A" symbol="TPS565201DDC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DDC0006A_N" package="DDC0006A_N">
+<connects>
+<connect gate="A" pin="GND" pad="1"/>
+<connect gate="A" pin="SW" pad="2"/>
+<connect gate="A" pin="VIN" pad="3"/>
+<connect gate="A" pin="VFB" pad="4"/>
+<connect gate="A" pin="EN" pad="5"/>
+<connect gate="A" pin="VBST" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TYPE" value="TYPE" constant="no"/>
+<attribute name="RefDes" value="RefDes" constant="no"/>
+<attribute name="Copyright" value="Copyright (C) 2025 Ultra Librarian. All rights reserved." constant="no"/>
+<attribute name="Mfr_Name" value="Texas Instruments" constant="no"/>
+<attribute name="Manufacturer_Part_Number" value="TPS565201DDCT" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="DDC0006A_M" package="DDC0006A_M">
+<connects>
+<connect gate="A" pin="GND" pad="1"/>
+<connect gate="A" pin="SW" pad="2"/>
+<connect gate="A" pin="VIN" pad="3"/>
+<connect gate="A" pin="VFB" pad="4"/>
+<connect gate="A" pin="EN" pad="5"/>
+<connect gate="A" pin="VBST" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TYPE" value="TYPE" constant="no"/>
+<attribute name="RefDes" value="RefDes" constant="no"/>
+<attribute name="Copyright" value="Copyright (C) 2025 Ultra Librarian. All rights reserved." constant="no"/>
+<attribute name="Mfr_Name" value="Texas Instruments" constant="no"/>
+<attribute name="Manufacturer_Part_Number" value="TPS565201DDCT" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="DDC0006A_L" package="DDC0006A_L">
+<connects>
+<connect gate="A" pin="GND" pad="1"/>
+<connect gate="A" pin="SW" pad="2"/>
+<connect gate="A" pin="VIN" pad="3"/>
+<connect gate="A" pin="VFB" pad="4"/>
+<connect gate="A" pin="EN" pad="5"/>
+<connect gate="A" pin="VBST" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TYPE" value="TYPE" constant="no"/>
+<attribute name="RefDes" value="RefDes" constant="no"/>
+<attribute name="Copyright" value="Copyright (C) 2025 Ultra Librarian. All rights reserved." constant="no"/>
+<attribute name="Mfr_Name" value="Texas Instruments" constant="no"/>
+<attribute name="Manufacturer_Part_Number" value="TPS565201DDCT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
